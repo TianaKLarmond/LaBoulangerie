@@ -216,6 +216,7 @@
     <Content Include="Images\Baguette.jpg" />
     <Content Include="Images\BakeryBanner1.jpg" />
     <Content Include="Images\BakeryBanner2.jpg" />
+    <Content Include="Images\BakeryStorefront.jpg" />
     <Content Include="Videos\BakeryBannerVideo.mp4" />
     <Content Include="Images\breadbackground.jpg" />
     <Content Include="Images\Brioche.jpg" />

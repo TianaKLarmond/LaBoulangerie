@@ -29,4 +29,8 @@ input[type="select"] {
     }
 }
 
-
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity and color as needed */
+    border-radius: 20px; /* Adjust the border-radius to control the roundness */
+    padding: 10px; /* Adjust padding as needed */
+}

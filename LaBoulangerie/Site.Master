@@ -75,14 +75,7 @@
                 </div>
             </div>
         </nav>
-        <div class="body1" id="TitleContent" style="text-align: center">
-            <a runat="server" href="~/">
-                <%--<asp:Image class="img-circle"  ID="Image1" runat="server" ImageUrl="~/Images/Logo.png" BorderStyle="None" Width="20%" Height="20%" />--%>
-                <img src="Images/BakeryBanner1.jpg" class="d-block w-100" alt="Bakery banner">
-            </a>  
-        </div>
-        <br /><br />
-
+        <br />
         <div class="body1" id="CategoryMenu" style="text-align: center">       
             <asp:ListView ID="categoryList"  
                 ItemType="LaBoulangerie.Models.Category" 

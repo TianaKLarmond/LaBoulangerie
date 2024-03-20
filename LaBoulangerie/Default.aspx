@@ -2,6 +2,13 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main>
+        <div class="body1" id="TitleContent" style="text-align: center">
+            <a runat="server" href="~/">
+                <%--<asp:Image class="img-circle"  ID="Image1" runat="server" ImageUrl="~/Images/Logo.png" BorderStyle="None" Width="20%" Height="20%" />--%>
+                <img src="Images/BakeryBanner1.jpg" class="d-block w-100 rounded" alt="Bakery banner">
+            </a>  
+        </div>
+        <br />
         <br />
         <section class="row" aria-labelledby="aspnetTitle">
             <h1 id="aspnetTitle">Our Best Sellers</h1>
@@ -46,7 +53,7 @@
 
                     <div class="card-body">
                         <h5 class="card-title">Plum Clafoutis</h5>
-                        <p class="card-text">Plum CLafoutis is sweet, but not terribly so, and the chunks of 
+                        <p class="card-text">Plum CLafoutis is a sweet, but not terribly so, French classic dessert. The chunks of 
                             fresh fruit are enjoyable to the palate.</p>
                         <a href="~/ProductList" class="btn btn-primary">
                             Shop Now &nbsp; <i class="bi bi-cart"></i>

@@ -47,9 +47,9 @@ namespace LaBoulangerie
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: "0d872c6f-9a57-40cf-bc63-88592ff35001",
+                clientSecret: "V.V8Q~L5yhXjyMoTNa4146QyoiWLi2KutCWPMbE7");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",

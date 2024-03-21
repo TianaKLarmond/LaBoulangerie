@@ -138,7 +138,7 @@ namespace LaBoulangerie.Models
                     ProductName = "Quiche Florentine",
                     Description = "Quiche Florentine is a French dish with Italian influences–a pie consisting of a pastry crust that is filled with eggs," +
                                   "milk, cheese, spinach, and fresh herbs such as rosemary and thyme.",
-                    ImagePath="Goat_cheese_and_spinach_quiche.jpg",
+                    ImagePath="QuicheFlorentine.jpg",
                     UnitPrice = 250.00,
                     CategoryID = 5
                 },

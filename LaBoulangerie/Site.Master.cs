@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity;
 using System.Linq;
 using LaBoulangerie.Models;
 using LaBoulangerie.Logic;
+using System.Data;
 
 namespace LaBoulangerie
 {
@@ -72,7 +73,11 @@ namespace LaBoulangerie
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //If the user belongs to the "Administrator" role, the AdminPAge.aspx is MailDefinition visible
+            if (HttpContext.Current.User.IsInRole("Administrator"))
+            {
+                adminLink.Visible = true;
+            }
         }
 
         protected void Page_PreRender(object sender, EventArgs e)

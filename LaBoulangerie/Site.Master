@@ -55,6 +55,7 @@
                 <%--<a class="navbar-brand" runat="server" href="~/">La Boulangerie Française</a>--%>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        <li class="Nav-item"><a class="nav-link" runat="server" id="adminLink" visible="false" href="~/Admin/AdminPage">Admin</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ProductList">Products</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ShoppingCart" ID="cartCount">&nbsp;</a></li>

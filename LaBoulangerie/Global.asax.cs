@@ -8,6 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using LaBoulangerie.Models;
+using LaBoulangerie.Logic;
 
 namespace LaBoulangerie
 {
@@ -23,8 +24,8 @@ namespace LaBoulangerie
             Database.SetInitializer(new ProductDatabaseInitializer());
 
             // Create the custom role and user.
-            //RoleActions roleActions = new RoleActions();
-            //roleActions.AddUserAndRole();
+            RoleActions roleActions = new RoleActions();
+            roleActions.AddUserAndRole();
         }
     }
 }

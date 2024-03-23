@@ -65,8 +65,8 @@
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="navbar-nav navbar-right">
-                                <li><a runat="server" class="nav-link" href="~/Account/Register">Register</a></li>
-                                <li><a runat="server" class="nav-link" href="~/Account/Login">Log In</a></li>
+                                <li class="nav-item"><a runat="server" class="nav-link" href="~/Account/Register">Register</a></li>
+                                <li class="nav-item"><a runat="server" class="nav-link" href="~/Account/Login">Log In</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -99,8 +99,8 @@
                 SelectMethod="GetCategories" >
                 <ItemTemplate>
                     <b style="font-size: large; font-style: normal">
-                        <a href="/ProductList.aspx?id=<%#: Item.CategoryID %>">
-                        <%#: Item.CategoryName %>
+                        <a href="<%#: GetRouteUrl("ProductsByCategoryRoute", new {categoryName = Item.CategoryName}) %>">
+                            <%#: Item.CategoryName %>
                         </a>
                     </b>
                 </ItemTemplate>

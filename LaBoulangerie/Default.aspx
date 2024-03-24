@@ -72,7 +72,7 @@
                     <ol style="font-size: large">
                         <li>Credit Card</li>
                         <li>Debit Card</li>
-                        <li>Cheque</li>
+                        <li>PayPal</li>
                         <li>Lynk</li>
                         <li>Cash on Delivery</li>
                     </ol>

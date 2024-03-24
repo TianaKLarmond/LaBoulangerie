@@ -2,12 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Administration</h1>
     <hr />
-    <center>
+    <%--<center>
         <a runat="server" id="manageLink" href="~/Admin/ManageRoles" style="font-size: large;">Manage Roles</a>&nbsp;&nbsp;
         <a runat="server" id="usersLink" href="~/Admin/UsersAndRoles" style="font-size: large;">Users and Roles</a>&nbsp;&nbsp;
         <a runat="server" id="creationLink" href="~/Admin/CreateUserWizardWithRoles" style="font-size: large;">Create Account (with Roles)</a>&nbsp;&nbsp;
         <a runat="server" id="authLink" href="~/Admin/RoleBasedAuthorization" style="font-size: large;">Role-Based Authorization</a>
-    </center>
+    </center>--%>
     <br />
     <h3>Add Product:</h3>
     <table>
